@@ -2,7 +2,15 @@
 
 Download and experiment with the ChatGPT and Claude versions of Max's Digimon × Ruby/Sapphire fan-game project.
 
-## Download
+## Play on Android / Jugar en Android
+
+**[Descargar los parches de Yu-Gi-Oh!, SAO y Digimon y ver la guía en español](https://github.com/nihaocalculus-source/digimon-sapphire-source/releases/tag/viewer-patches-2026-11-07)**
+
+**[Download the game patches and Android guide in English](https://github.com/nihaocalculus-source/digimon-sapphire-source/releases/tag/viewer-patches-2026-11-07)**
+
+For the Yu-Gi-Oh! game from the videos, choose **Duelist Kingdom — Final Chapter**. Use your own English **Pokémon Ruby v1.0** cartridge backup. **Digimon Sapphire** uses English **Pokémon Sapphire v1.0**.
+
+## Download the editable source
 
 **[Download the source ZIP](https://github.com/nihaocalculus-source/digimon-sapphire-source/archive/refs/heads/main.zip)**
 
