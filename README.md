@@ -28,6 +28,6 @@ Or use the green **Code → Download ZIP** button on this page. No GitHub accoun
 
 The source foundation is [pret/pokeruby](https://github.com/pret/pokeruby). Existing game, sprite, font and EmulatorJS credits/notices are retained in the included project documentation. This is an unofficial fan project.
 
-`SOURCE-SHA256SUMS.txt` records the hashes of the original source snapshot. Passwords, API credentials, login data, personal vault files, ROMs and save files are not included.
+`SOURCE-SHA256SUMS.txt` records the hashes of the downloadable source files (Git-normalized text line endings). Passwords, API credentials, login data, personal vault files, ROMs and save files are not included.
 
 Source snapshot published November 6, 2026. You can download, inspect and experiment with the available files; this page does not promise a completed or bug-free game.
