@@ -1,0 +1,1378 @@
+{
+  "schemaVersion": 1,
+  "status": "campaign prototype; not yet wired into GBA ROM",
+  "balance": "Proposed fan-game balance, independent from current ROM slot stats. Move IDs and abilities are intentionally empty until battle design.",
+  "partyLimit": 6,
+  "storageLimit": 420,
+  "families": {
+    "agumon": {
+      "id": "agumon",
+      "crest": "courage",
+      "originalTamer": "Tai Kamiya",
+      "recruitForm": "agumon",
+      "formIds": [
+        "agumon",
+        "greymon",
+        "metalgreymon",
+        "wargreymon"
+      ]
+    },
+    "gabumon": {
+      "id": "gabumon",
+      "crest": "friendship",
+      "originalTamer": "Matt Ishida",
+      "recruitForm": "gabumon",
+      "formIds": [
+        "gabumon",
+        "garurumon",
+        "weregarurumon",
+        "metalgarurumon"
+      ]
+    },
+    "biyomon": {
+      "id": "biyomon",
+      "crest": "love",
+      "originalTamer": "Sora Takenouchi",
+      "recruitForm": "biyomon",
+      "formIds": [
+        "biyomon",
+        "birdramon",
+        "garudamon",
+        "phoenixmon"
+      ]
+    },
+    "tentomon": {
+      "id": "tentomon",
+      "crest": "knowledge",
+      "originalTamer": "Izzy Izumi",
+      "recruitForm": "tentomon",
+      "formIds": [
+        "tentomon",
+        "kabuterimon",
+        "megakabuterimonblue",
+        "herculeskabuterimon"
+      ]
+    },
+    "palmon": {
+      "id": "palmon",
+      "crest": "sincerity",
+      "originalTamer": "Mimi Tachikawa",
+      "recruitForm": "palmon",
+      "formIds": [
+        "palmon",
+        "togemon",
+        "lilymon",
+        "rosemon"
+      ]
+    },
+    "gomamon": {
+      "id": "gomamon",
+      "crest": "reliability",
+      "originalTamer": "Joe Kido",
+      "recruitForm": "gomamon",
+      "formIds": [
+        "gomamon",
+        "ikkakumon",
+        "zudomon",
+        "vikemon"
+      ]
+    },
+    "patamon": {
+      "id": "patamon",
+      "crest": "hope",
+      "originalTamer": "T.K. Takaishi",
+      "recruitForm": "patamon",
+      "formIds": [
+        "patamon",
+        "angemon",
+        "magnaangemon",
+        "seraphimon"
+      ]
+    },
+    "gatomon": {
+      "id": "gatomon",
+      "crest": "light",
+      "originalTamer": "Kari Kamiya",
+      "recruitForm": "tailmon",
+      "formIds": [
+        "plotmon",
+        "tailmon",
+        "angewomon",
+        "ophanimon"
+      ]
+    }
+  },
+  "forms": {
+    "agumon": {
+      "id": "agumon",
+      "displayName": "Agumon",
+      "familyId": "agumon",
+      "stage": "rookie",
+      "attribute": "vaccine",
+      "elements": [
+        "fire",
+        "dragon"
+      ],
+      "baseStats": {
+        "hp": 45,
+        "attack": 60,
+        "defense": 40,
+        "spAttack": 70,
+        "spDefense": 45,
+        "speed": 55
+      },
+      "growthRate": "medium_fast",
+      "expYield": 60,
+      "catchRate": 180,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 280,
+      "gbaName": "AGUMON",
+      "assetKey": "Agumon",
+      "digivolutions": [
+        {
+          "to": "greymon",
+          "minimumLevel": 16,
+          "minimumBond": 20,
+          "requiredCrest": null
+        }
+      ]
+    },
+    "greymon": {
+      "id": "greymon",
+      "displayName": "Greymon",
+      "familyId": "agumon",
+      "stage": "champion",
+      "attribute": "vaccine",
+      "elements": [
+        "fire",
+        "dragon"
+      ],
+      "baseStats": {
+        "hp": 67,
+        "attack": 82,
+        "defense": 62,
+        "spAttack": 92,
+        "spDefense": 67,
+        "speed": 77
+      },
+      "growthRate": "medium_fast",
+      "expYield": 125,
+      "catchRate": 135,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 281,
+      "gbaName": "GREYMON",
+      "assetKey": "Greymon",
+      "digivolutions": [
+        {
+          "to": "metalgreymon",
+          "minimumLevel": 32,
+          "minimumBond": 50,
+          "requiredCrest": null
+        }
+      ]
+    },
+    "metalgreymon": {
+      "id": "metalgreymon",
+      "displayName": "MetalGreymon",
+      "familyId": "agumon",
+      "stage": "ultimate",
+      "attribute": "vaccine",
+      "elements": [
+        "fire",
+        "dragon"
+      ],
+      "baseStats": {
+        "hp": 89,
+        "attack": 104,
+        "defense": 84,
+        "spAttack": 114,
+        "spDefense": 89,
+        "speed": 99
+      },
+      "growthRate": "medium_fast",
+      "expYield": 190,
+      "catchRate": 90,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 210,
+      "gbaName": "MTLGREYMON",
+      "assetKey": "MetalGreymon",
+      "digivolutions": [
+        {
+          "to": "wargreymon",
+          "minimumLevel": 48,
+          "minimumBond": 80,
+          "requiredCrest": "courage"
+        }
+      ]
+    },
+    "wargreymon": {
+      "id": "wargreymon",
+      "displayName": "WarGreymon",
+      "familyId": "agumon",
+      "stage": "mega",
+      "attribute": "vaccine",
+      "elements": [
+        "fire",
+        "dragon"
+      ],
+      "baseStats": {
+        "hp": 111,
+        "attack": 126,
+        "defense": 106,
+        "spAttack": 136,
+        "spDefense": 111,
+        "speed": 121
+      },
+      "growthRate": "medium_fast",
+      "expYield": 255,
+      "catchRate": 45,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 282,
+      "gbaName": "WARGREYMON",
+      "assetKey": "WarGreymon",
+      "digivolutions": []
+    },
+    "gabumon": {
+      "id": "gabumon",
+      "displayName": "Gabumon",
+      "familyId": "gabumon",
+      "stage": "rookie",
+      "attribute": "data",
+      "elements": [
+        "ice",
+        "beast"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 60,
+        "defense": 50,
+        "spAttack": 55,
+        "spDefense": 55,
+        "speed": 55
+      },
+      "growthRate": "medium_fast",
+      "expYield": 60,
+      "catchRate": 180,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 283,
+      "gbaName": "GABUMON",
+      "assetKey": "Gabumon",
+      "digivolutions": [
+        {
+          "to": "garurumon",
+          "minimumLevel": 16,
+          "minimumBond": 20,
+          "requiredCrest": null
+        }
+      ]
+    },
+    "garurumon": {
+      "id": "garurumon",
+      "displayName": "Garurumon",
+      "familyId": "gabumon",
+      "stage": "champion",
+      "attribute": "data",
+      "elements": [
+        "ice",
+        "beast"
+      ],
+      "baseStats": {
+        "hp": 72,
+        "attack": 82,
+        "defense": 72,
+        "spAttack": 77,
+        "spDefense": 77,
+        "speed": 77
+      },
+      "growthRate": "medium_fast",
+      "expYield": 125,
+      "catchRate": 135,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 284,
+      "gbaName": "GARURUMON",
+      "assetKey": "Garurumon",
+      "digivolutions": [
+        {
+          "to": "weregarurumon",
+          "minimumLevel": 32,
+          "minimumBond": 50,
+          "requiredCrest": null
+        }
+      ]
+    },
+    "weregarurumon": {
+      "id": "weregarurumon",
+      "displayName": "WereGarurumon",
+      "familyId": "gabumon",
+      "stage": "ultimate",
+      "attribute": "data",
+      "elements": [
+        "ice",
+        "beast"
+      ],
+      "baseStats": {
+        "hp": 94,
+        "attack": 104,
+        "defense": 94,
+        "spAttack": 99,
+        "spDefense": 99,
+        "speed": 99
+      },
+      "growthRate": "medium_fast",
+      "expYield": 190,
+      "catchRate": 90,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 347,
+      "gbaName": "WEREGARMON",
+      "assetKey": "WereGarurumon",
+      "digivolutions": [
+        {
+          "to": "metalgarurumon",
+          "minimumLevel": 48,
+          "minimumBond": 80,
+          "requiredCrest": "friendship"
+        }
+      ]
+    },
+    "metalgarurumon": {
+      "id": "metalgarurumon",
+      "displayName": "MetalGarurumon",
+      "familyId": "gabumon",
+      "stage": "mega",
+      "attribute": "data",
+      "elements": [
+        "ice",
+        "beast"
+      ],
+      "baseStats": {
+        "hp": 116,
+        "attack": 126,
+        "defense": 116,
+        "spAttack": 121,
+        "spDefense": 121,
+        "speed": 121
+      },
+      "growthRate": "medium_fast",
+      "expYield": 255,
+      "catchRate": 45,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 285,
+      "gbaName": "MTLGARUMON",
+      "assetKey": "MetalGarurumon",
+      "digivolutions": []
+    },
+    "biyomon": {
+      "id": "biyomon",
+      "displayName": "Biyomon",
+      "familyId": "biyomon",
+      "stage": "rookie",
+      "attribute": "vaccine",
+      "elements": [
+        "wind",
+        "fire"
+      ],
+      "baseStats": {
+        "hp": 45,
+        "attack": 50,
+        "defense": 45,
+        "spAttack": 60,
+        "spDefense": 50,
+        "speed": 70
+      },
+      "growthRate": "medium_fast",
+      "expYield": 60,
+      "catchRate": 180,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 16,
+      "gbaName": "BIYOMON",
+      "assetKey": "Biyomon",
+      "digivolutions": [
+        {
+          "to": "birdramon",
+          "minimumLevel": 16,
+          "minimumBond": 20,
+          "requiredCrest": null
+        }
+      ]
+    },
+    "birdramon": {
+      "id": "birdramon",
+      "displayName": "Birdramon",
+      "familyId": "biyomon",
+      "stage": "champion",
+      "attribute": "vaccine",
+      "elements": [
+        "wind",
+        "fire"
+      ],
+      "baseStats": {
+        "hp": 67,
+        "attack": 72,
+        "defense": 67,
+        "spAttack": 82,
+        "spDefense": 72,
+        "speed": 92
+      },
+      "growthRate": "medium_fast",
+      "expYield": 125,
+      "catchRate": 135,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 17,
+      "gbaName": "BIRDRAMON",
+      "assetKey": "Birdramon",
+      "digivolutions": [
+        {
+          "to": "garudamon",
+          "minimumLevel": 32,
+          "minimumBond": 50,
+          "requiredCrest": null
+        }
+      ]
+    },
+    "garudamon": {
+      "id": "garudamon",
+      "displayName": "Garudamon",
+      "familyId": "biyomon",
+      "stage": "ultimate",
+      "attribute": "vaccine",
+      "elements": [
+        "wind",
+        "fire"
+      ],
+      "baseStats": {
+        "hp": 89,
+        "attack": 94,
+        "defense": 89,
+        "spAttack": 104,
+        "spDefense": 94,
+        "speed": 114
+      },
+      "growthRate": "medium_fast",
+      "expYield": 190,
+      "catchRate": 90,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 312,
+      "gbaName": "GARUDAMON",
+      "assetKey": "Garudamon",
+      "digivolutions": [
+        {
+          "to": "phoenixmon",
+          "minimumLevel": 48,
+          "minimumBond": 80,
+          "requiredCrest": "love"
+        }
+      ]
+    },
+    "phoenixmon": {
+      "id": "phoenixmon",
+      "displayName": "Phoenixmon",
+      "familyId": "biyomon",
+      "stage": "mega",
+      "attribute": "vaccine",
+      "elements": [
+        "wind",
+        "fire"
+      ],
+      "baseStats": {
+        "hp": 111,
+        "attack": 116,
+        "defense": 111,
+        "spAttack": 126,
+        "spDefense": 116,
+        "speed": 136
+      },
+      "growthRate": "medium_fast",
+      "expYield": 255,
+      "catchRate": 45,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 18,
+      "gbaName": "PHOENIXMON",
+      "assetKey": "Phoenixmon",
+      "digivolutions": []
+    },
+    "tentomon": {
+      "id": "tentomon",
+      "displayName": "Tentomon",
+      "familyId": "tentomon",
+      "stage": "rookie",
+      "attribute": "vaccine",
+      "elements": [
+        "electric",
+        "insect"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 50,
+        "defense": 65,
+        "spAttack": 60,
+        "spDefense": 55,
+        "speed": 45
+      },
+      "growthRate": "medium_fast",
+      "expYield": 60,
+      "catchRate": 180,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 13,
+      "gbaName": "TENTOMON",
+      "assetKey": "Tentomon",
+      "digivolutions": [
+        {
+          "to": "kabuterimon",
+          "minimumLevel": 16,
+          "minimumBond": 20,
+          "requiredCrest": null
+        }
+      ]
+    },
+    "kabuterimon": {
+      "id": "kabuterimon",
+      "displayName": "Kabuterimon",
+      "familyId": "tentomon",
+      "stage": "champion",
+      "attribute": "vaccine",
+      "elements": [
+        "electric",
+        "insect"
+      ],
+      "baseStats": {
+        "hp": 72,
+        "attack": 72,
+        "defense": 87,
+        "spAttack": 82,
+        "spDefense": 77,
+        "speed": 67
+      },
+      "growthRate": "medium_fast",
+      "expYield": 125,
+      "catchRate": 135,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 14,
+      "gbaName": "KABUMON",
+      "assetKey": "Kabuterimon",
+      "digivolutions": [
+        {
+          "to": "megakabuterimonblue",
+          "minimumLevel": 32,
+          "minimumBond": 50,
+          "requiredCrest": null
+        }
+      ]
+    },
+    "megakabuterimonblue": {
+      "id": "megakabuterimonblue",
+      "displayName": "MegaKabuterimon",
+      "familyId": "tentomon",
+      "stage": "ultimate",
+      "attribute": "vaccine",
+      "elements": [
+        "electric",
+        "insect"
+      ],
+      "baseStats": {
+        "hp": 94,
+        "attack": 94,
+        "defense": 109,
+        "spAttack": 104,
+        "spDefense": 99,
+        "speed": 89
+      },
+      "growthRate": "medium_fast",
+      "expYield": 190,
+      "catchRate": 90,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 119,
+      "gbaName": "MGKABUMONB",
+      "assetKey": "MegaKabuterimonBlue",
+      "digivolutions": [
+        {
+          "to": "herculeskabuterimon",
+          "minimumLevel": 48,
+          "minimumBond": 80,
+          "requiredCrest": "knowledge"
+        }
+      ]
+    },
+    "herculeskabuterimon": {
+      "id": "herculeskabuterimon",
+      "displayName": "HerculesKabuterimon",
+      "familyId": "tentomon",
+      "stage": "mega",
+      "attribute": "vaccine",
+      "elements": [
+        "electric",
+        "insect"
+      ],
+      "baseStats": {
+        "hp": 116,
+        "attack": 116,
+        "defense": 131,
+        "spAttack": 126,
+        "spDefense": 121,
+        "speed": 111
+      },
+      "growthRate": "medium_fast",
+      "expYield": 255,
+      "catchRate": 45,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 15,
+      "gbaName": "HERCULEMON",
+      "assetKey": "HerculesKabuterimon",
+      "digivolutions": []
+    },
+    "palmon": {
+      "id": "palmon",
+      "displayName": "Palmon",
+      "familyId": "palmon",
+      "stage": "rookie",
+      "attribute": "data",
+      "elements": [
+        "nature"
+      ],
+      "baseStats": {
+        "hp": 55,
+        "attack": 50,
+        "defense": 55,
+        "spAttack": 60,
+        "spDefense": 60,
+        "speed": 40
+      },
+      "growthRate": "medium_fast",
+      "expYield": 60,
+      "catchRate": 180,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 1,
+      "gbaName": "PALMON",
+      "assetKey": "Palmon",
+      "digivolutions": [
+        {
+          "to": "togemon",
+          "minimumLevel": 16,
+          "minimumBond": 20,
+          "requiredCrest": null
+        }
+      ]
+    },
+    "togemon": {
+      "id": "togemon",
+      "displayName": "Togemon",
+      "familyId": "palmon",
+      "stage": "champion",
+      "attribute": "data",
+      "elements": [
+        "nature"
+      ],
+      "baseStats": {
+        "hp": 77,
+        "attack": 72,
+        "defense": 77,
+        "spAttack": 82,
+        "spDefense": 82,
+        "speed": 62
+      },
+      "growthRate": "medium_fast",
+      "expYield": 125,
+      "catchRate": 135,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 2,
+      "gbaName": "TOGEMON",
+      "assetKey": "Togemon",
+      "digivolutions": [
+        {
+          "to": "lilymon",
+          "minimumLevel": 32,
+          "minimumBond": 50,
+          "requiredCrest": null
+        }
+      ]
+    },
+    "lilymon": {
+      "id": "lilymon",
+      "displayName": "Lilymon",
+      "familyId": "palmon",
+      "stage": "ultimate",
+      "attribute": "data",
+      "elements": [
+        "nature"
+      ],
+      "baseStats": {
+        "hp": 99,
+        "attack": 94,
+        "defense": 99,
+        "spAttack": 104,
+        "spDefense": 104,
+        "speed": 84
+      },
+      "growthRate": "medium_fast",
+      "expYield": 190,
+      "catchRate": 90,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 24,
+      "gbaName": "LILYMON",
+      "assetKey": "Lilymon",
+      "digivolutions": [
+        {
+          "to": "rosemon",
+          "minimumLevel": 48,
+          "minimumBond": 80,
+          "requiredCrest": "sincerity"
+        }
+      ]
+    },
+    "rosemon": {
+      "id": "rosemon",
+      "displayName": "Rosemon",
+      "familyId": "palmon",
+      "stage": "mega",
+      "attribute": "data",
+      "elements": [
+        "nature"
+      ],
+      "baseStats": {
+        "hp": 121,
+        "attack": 116,
+        "defense": 121,
+        "spAttack": 126,
+        "spDefense": 126,
+        "speed": 106
+      },
+      "growthRate": "medium_fast",
+      "expYield": 255,
+      "catchRate": 45,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 3,
+      "gbaName": "ROSEMON",
+      "assetKey": "Rosemon",
+      "digivolutions": []
+    },
+    "gomamon": {
+      "id": "gomamon",
+      "displayName": "Gomamon",
+      "familyId": "gomamon",
+      "stage": "rookie",
+      "attribute": "vaccine",
+      "elements": [
+        "water",
+        "ice"
+      ],
+      "baseStats": {
+        "hp": 55,
+        "attack": 60,
+        "defense": 60,
+        "spAttack": 50,
+        "spDefense": 50,
+        "speed": 40
+      },
+      "growthRate": "medium_fast",
+      "expYield": 60,
+      "catchRate": 180,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 7,
+      "gbaName": "GOMAMON",
+      "assetKey": "Gomamon",
+      "digivolutions": [
+        {
+          "to": "ikkakumon",
+          "minimumLevel": 16,
+          "minimumBond": 20,
+          "requiredCrest": null
+        }
+      ]
+    },
+    "ikkakumon": {
+      "id": "ikkakumon",
+      "displayName": "Ikkakumon",
+      "familyId": "gomamon",
+      "stage": "champion",
+      "attribute": "vaccine",
+      "elements": [
+        "water",
+        "ice"
+      ],
+      "baseStats": {
+        "hp": 77,
+        "attack": 82,
+        "defense": 82,
+        "spAttack": 72,
+        "spDefense": 72,
+        "speed": 62
+      },
+      "growthRate": "medium_fast",
+      "expYield": 125,
+      "catchRate": 135,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 8,
+      "gbaName": "IKKAKUMON",
+      "assetKey": "Ikkakumon",
+      "digivolutions": [
+        {
+          "to": "zudomon",
+          "minimumLevel": 32,
+          "minimumBond": 50,
+          "requiredCrest": null
+        }
+      ]
+    },
+    "zudomon": {
+      "id": "zudomon",
+      "displayName": "Zudomon",
+      "familyId": "gomamon",
+      "stage": "ultimate",
+      "attribute": "vaccine",
+      "elements": [
+        "water",
+        "ice"
+      ],
+      "baseStats": {
+        "hp": 99,
+        "attack": 104,
+        "defense": 104,
+        "spAttack": 94,
+        "spDefense": 94,
+        "speed": 84
+      },
+      "growthRate": "medium_fast",
+      "expYield": 190,
+      "catchRate": 90,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 374,
+      "gbaName": "ZUDOMON",
+      "assetKey": "Zudomon",
+      "digivolutions": [
+        {
+          "to": "vikemon",
+          "minimumLevel": 48,
+          "minimumBond": 80,
+          "requiredCrest": "reliability"
+        }
+      ]
+    },
+    "vikemon": {
+      "id": "vikemon",
+      "displayName": "Vikemon",
+      "familyId": "gomamon",
+      "stage": "mega",
+      "attribute": "vaccine",
+      "elements": [
+        "water",
+        "ice"
+      ],
+      "baseStats": {
+        "hp": 121,
+        "attack": 126,
+        "defense": 126,
+        "spAttack": 116,
+        "spDefense": 116,
+        "speed": 106
+      },
+      "growthRate": "medium_fast",
+      "expYield": 255,
+      "catchRate": 45,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 9,
+      "gbaName": "VIKEMON",
+      "assetKey": "Vikemon",
+      "digivolutions": []
+    },
+    "patamon": {
+      "id": "patamon",
+      "displayName": "Patamon",
+      "familyId": "patamon",
+      "stage": "rookie",
+      "attribute": "data",
+      "elements": [
+        "wind",
+        "holy"
+      ],
+      "baseStats": {
+        "hp": 45,
+        "attack": 45,
+        "defense": 45,
+        "spAttack": 65,
+        "spDefense": 60,
+        "speed": 60
+      },
+      "growthRate": "medium_fast",
+      "expYield": 60,
+      "catchRate": 180,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 277,
+      "gbaName": "PATAMON",
+      "assetKey": "Patamon",
+      "digivolutions": [
+        {
+          "to": "angemon",
+          "minimumLevel": 16,
+          "minimumBond": 20,
+          "requiredCrest": null
+        }
+      ]
+    },
+    "angemon": {
+      "id": "angemon",
+      "displayName": "Angemon",
+      "familyId": "patamon",
+      "stage": "champion",
+      "attribute": "data",
+      "elements": [
+        "wind",
+        "holy"
+      ],
+      "baseStats": {
+        "hp": 67,
+        "attack": 67,
+        "defense": 67,
+        "spAttack": 87,
+        "spDefense": 82,
+        "speed": 82
+      },
+      "growthRate": "medium_fast",
+      "expYield": 125,
+      "catchRate": 135,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 278,
+      "gbaName": "ANGEMON",
+      "assetKey": "Angemon",
+      "digivolutions": [
+        {
+          "to": "magnaangemon",
+          "minimumLevel": 32,
+          "minimumBond": 50,
+          "requiredCrest": null
+        }
+      ]
+    },
+    "magnaangemon": {
+      "id": "magnaangemon",
+      "displayName": "MagnaAngemon",
+      "familyId": "patamon",
+      "stage": "ultimate",
+      "attribute": "data",
+      "elements": [
+        "wind",
+        "holy"
+      ],
+      "baseStats": {
+        "hp": 89,
+        "attack": 89,
+        "defense": 89,
+        "spAttack": 109,
+        "spDefense": 104,
+        "speed": 104
+      },
+      "growthRate": "medium_fast",
+      "expYield": 190,
+      "catchRate": 90,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 40,
+      "gbaName": "HOLYANGMON",
+      "assetKey": "HolyAngemon",
+      "digivolutions": [
+        {
+          "to": "seraphimon",
+          "minimumLevel": 48,
+          "minimumBond": 80,
+          "requiredCrest": "hope"
+        }
+      ]
+    },
+    "seraphimon": {
+      "id": "seraphimon",
+      "displayName": "Seraphimon",
+      "familyId": "patamon",
+      "stage": "mega",
+      "attribute": "data",
+      "elements": [
+        "wind",
+        "holy"
+      ],
+      "baseStats": {
+        "hp": 111,
+        "attack": 111,
+        "defense": 111,
+        "spAttack": 131,
+        "spDefense": 126,
+        "speed": 126
+      },
+      "growthRate": "medium_fast",
+      "expYield": 255,
+      "catchRate": 45,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 279,
+      "gbaName": "SERAPHIMON",
+      "assetKey": "Seraphimon",
+      "digivolutions": []
+    },
+    "plotmon": {
+      "id": "plotmon",
+      "displayName": "Salamon",
+      "familyId": "gatomon",
+      "stage": "rookie",
+      "attribute": "vaccine",
+      "elements": [
+        "holy"
+      ],
+      "baseStats": {
+        "hp": 45,
+        "attack": 60,
+        "defense": 45,
+        "spAttack": 55,
+        "spDefense": 60,
+        "speed": 65
+      },
+      "growthRate": "medium_fast",
+      "expYield": 60,
+      "catchRate": 180,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 35,
+      "gbaName": "PLOTMON",
+      "assetKey": "Plotmon",
+      "digivolutions": [
+        {
+          "to": "tailmon",
+          "minimumLevel": 16,
+          "minimumBond": 20,
+          "requiredCrest": null
+        }
+      ]
+    },
+    "tailmon": {
+      "id": "tailmon",
+      "displayName": "Gatomon",
+      "familyId": "gatomon",
+      "stage": "champion",
+      "attribute": "vaccine",
+      "elements": [
+        "holy"
+      ],
+      "baseStats": {
+        "hp": 67,
+        "attack": 82,
+        "defense": 67,
+        "spAttack": 77,
+        "spDefense": 82,
+        "speed": 87
+      },
+      "growthRate": "medium_fast",
+      "expYield": 125,
+      "catchRate": 135,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 108,
+      "gbaName": "TAILMON",
+      "assetKey": "Tailmon",
+      "digivolutions": [
+        {
+          "to": "angewomon",
+          "minimumLevel": 32,
+          "minimumBond": 50,
+          "requiredCrest": null
+        }
+      ]
+    },
+    "angewomon": {
+      "id": "angewomon",
+      "displayName": "Angewomon",
+      "familyId": "gatomon",
+      "stage": "ultimate",
+      "attribute": "vaccine",
+      "elements": [
+        "holy"
+      ],
+      "baseStats": {
+        "hp": 89,
+        "attack": 104,
+        "defense": 89,
+        "spAttack": 99,
+        "spDefense": 104,
+        "speed": 109
+      },
+      "growthRate": "medium_fast",
+      "expYield": 190,
+      "catchRate": 90,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 36,
+      "gbaName": "ANGEWOMON",
+      "assetKey": "Angewomon",
+      "digivolutions": [
+        {
+          "to": "ophanimon",
+          "minimumLevel": 48,
+          "minimumBond": 80,
+          "requiredCrest": "light"
+        }
+      ]
+    },
+    "ophanimon": {
+      "id": "ophanimon",
+      "displayName": "Ophanimon",
+      "familyId": "gatomon",
+      "stage": "mega",
+      "attribute": "vaccine",
+      "elements": [
+        "holy"
+      ],
+      "baseStats": {
+        "hp": 111,
+        "attack": 126,
+        "defense": 111,
+        "spAttack": 121,
+        "spDefense": 126,
+        "speed": 131
+      },
+      "growthRate": "medium_fast",
+      "expYield": 255,
+      "catchRate": 45,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 242,
+      "gbaName": "OPHANIMON",
+      "assetKey": "Ophanimon",
+      "digivolutions": []
+    },
+    "omegamon": {
+      "id": "omegamon",
+      "displayName": "Omnimon / Omegamon",
+      "familyId": null,
+      "stage": "ultra",
+      "attribute": "vaccine",
+      "elements": [
+        "holy",
+        "fire",
+        "ice"
+      ],
+      "baseStats": {
+        "hp": 120,
+        "attack": 145,
+        "defense": 120,
+        "spAttack": 145,
+        "spDefense": 120,
+        "speed": 110
+      },
+      "growthRate": "medium_fast",
+      "expYield": 0,
+      "catchRate": 0,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 406,
+      "gbaName": "OMEGAMON",
+      "assetKey": "Omegamon",
+      "digivolutions": []
+    },
+    "metalseadramon": {
+      "id": "metalseadramon",
+      "displayName": "MetalSeadramon",
+      "familyId": null,
+      "stage": "ultimate",
+      "attribute": "data",
+      "elements": [
+        "water",
+        "metal"
+      ],
+      "baseStats": {
+        "hp": 110,
+        "attack": 120,
+        "defense": 110,
+        "spAttack": 130,
+        "spDefense": 110,
+        "speed": 100
+      },
+      "growthRate": "medium_fast",
+      "expYield": 255,
+      "catchRate": 45,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 407,
+      "gbaName": "MTLSEADRAMON",
+      "assetKey": "MetalSeadramon",
+      "digivolutions": []
+    },
+    "puppetmon": {
+      "id": "puppetmon",
+      "displayName": "Puppetmon",
+      "familyId": null,
+      "stage": "ultimate",
+      "attribute": "virus",
+      "elements": [
+        "wood",
+        "dark"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 130,
+        "defense": 100,
+        "spAttack": 120,
+        "spDefense": 100,
+        "speed": 120
+      },
+      "growthRate": "medium_fast",
+      "expYield": 255,
+      "catchRate": 45,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 408,
+      "gbaName": "PUPPETMON",
+      "assetKey": "Puppetmon",
+      "digivolutions": []
+    },
+    "machinedramon": {
+      "id": "machinedramon",
+      "displayName": "Machinedramon",
+      "familyId": null,
+      "stage": "ultimate",
+      "attribute": "virus",
+      "elements": [
+        "metal",
+        "dark"
+      ],
+      "baseStats": {
+        "hp": 120,
+        "attack": 140,
+        "defense": 120,
+        "spAttack": 110,
+        "spDefense": 120,
+        "speed": 90
+      },
+      "growthRate": "medium_fast",
+      "expYield": 255,
+      "catchRate": 45,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 409,
+      "gbaName": "MACHINEDRAMON",
+      "assetKey": "Machinedramon",
+      "digivolutions": []
+    },
+    "piedmon": {
+      "id": "piedmon",
+      "displayName": "Piedmon",
+      "familyId": null,
+      "stage": "ultimate",
+      "attribute": "virus",
+      "elements": [
+        "dark",
+        "psychic"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 120,
+        "defense": 100,
+        "spAttack": 140,
+        "spDefense": 100,
+        "speed": 130
+      },
+      "growthRate": "medium_fast",
+      "expYield": 255,
+      "catchRate": 45,
+      "abilities": [],
+      "learnset": [],
+      "gbaSlot": 410,
+      "gbaName": "PIEDMON",
+      "assetKey": "Piedmon",
+      "digivolutions": []
+    }
+  },
+  "protagonists": {
+    "tai": {
+      "name": "Tai Kamiya",
+      "edition": "ruby",
+      "starter": "agumon",
+      "startMap": "tai_home",
+      "badgeRewards": [
+        "biyomon",
+        "tentomon",
+        "palmon",
+        "gomamon",
+        "patamon",
+        "gatomon",
+        "gabumon",
+        null
+      ]
+    },
+    "matt": {
+      "name": "Matt Ishida",
+      "edition": "sihappiere",
+      "starter": "gabumon",
+      "startMap": "matt_home",
+      "badgeRewards": [
+        "gomamon",
+        "patamon",
+        "tentomon",
+        "biyomon",
+        "palmon",
+        "gatomon",
+        "agumon",
+        null
+      ]
+    }
+  },
+  "fusionRecipes": {
+    "omegamon": {
+      "participants": [
+        {
+          "journey": "tai",
+          "family": "agumon",
+          "form": "wargreymon"
+        },
+        {
+          "journey": "matt",
+          "family": "gabumon",
+          "form": "metalgarurumon"
+        }
+      ],
+      "minimumLevel": 48,
+      "minimumBond": 80,
+      "requiredBadgeCount": 8,
+      "requiredMap": "convergence_gate",
+      "battleOnly": true,
+      "maximumUsesPerBattle": 1,
+      "resultForm": "omegamon",
+      "onEnd": "Restore both partners with their pre-fusion health and status; fusion never overwrites source records."
+    }
+  },
+  "overworldActors": {
+    "tai": {
+      "edition": "ruby",
+      "avatarAtlas": "assets/tai.png",
+      "nativeGraphics": "OBJ_EVENT_GFX_TAI_NORMAL",
+      "followerForm": "agumon",
+      "followerSprite": "assets/agumon.png"
+    },
+    "matt": {
+      "edition": "sihappiere",
+      "avatarAtlas": "assets/matt.png",
+      "nativeGraphics": "OBJ_EVENT_GFX_MATT_NORMAL",
+      "followerForm": "gabumon",
+      "followerSprite": "assets/gabumon.png"
+    }
+  }
+}

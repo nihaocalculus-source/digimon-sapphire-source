@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "editions": [
+    {
+      "edition": "ruby",
+      "avatar": "tai",
+      "linkedNativeEvents": "pass",
+      "avatarAndFollowerAssets": "pass",
+      "installedRomMatchesSourceBuild": true,
+      "sha256": "919964ba8a174cb406f01d93697c32e75ea221a247df446bfe9f2e18afc910d5"
+    },
+    {
+      "edition": "sapphire",
+      "avatar": "matt",
+      "linkedNativeEvents": "pass",
+      "avatarAndFollowerAssets": "pass",
+      "installedRomMatchesSourceBuild": true,
+      "sha256": "76779a514f3638d47dcf18022c6a8f96f470b24767876555f72de62eee7915dc"
+    }
+  ]
+}

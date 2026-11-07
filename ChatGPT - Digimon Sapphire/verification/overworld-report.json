@@ -1,0 +1,821 @@
+[
+  {
+    "file": "graphics/object_events/pics/pokemon/azumarill.png",
+    "gif": "champion/Gekomon.gif",
+    "dimensions": [
+      48,
+      16
+    ],
+    "frames": 3,
+    "species": "azumarill",
+    "digimon": "Gekomon",
+    "compiled_bytes": 384,
+    "compiled_sha256": "1323339a770b72af25a6088ff2f17d8991af06c854152ef94a566a8dd3641a3e"
+  },
+  {
+    "file": "graphics/object_events/pics/pokemon/azurill.png",
+    "gif": "in-training/Poyomon.gif",
+    "dimensions": [
+      48,
+      16
+    ],
+    "frames": 3,
+    "species": "azurill",
+    "digimon": "Poyomon",
+    "compiled_bytes": 384,
+    "compiled_sha256": "c19b28ea8e64049c938b164ad54f851118455777c29f061c3800513a9c5fe4d8"
+  },
+  {
+    "file": "graphics/object_events/pics/pokemon/groudon.png",
+    "gif": "mega/ShineGreymon.gif",
+    "dimensions": [
+      64,
+      32
+    ],
+    "frames": 2,
+    "species": "groudon",
+    "digimon": "ShineGreymon",
+    "compiled_bytes": 1024,
+    "compiled_sha256": "f9bafb540a45d770e02ec0a35704adee1e49246f2b751d995cffda26f234d304"
+  },
+  {
+    "file": "graphics/object_events/pics/pokemon/kecleon.png",
+    "gif": "ultimate/Magnamon.gif",
+    "dimensions": [
+      48,
+      16
+    ],
+    "frames": 3,
+    "species": "kecleon",
+    "digimon": "Magnamon",
+    "compiled_bytes": 384,
+    "compiled_sha256": "1646ead42176351e2718ff02c4ac69c72eb74564a83844b1a2797b10bb8baba9"
+  },
+  {
+    "file": "graphics/object_events/pics/pokemon/kyogre.png",
+    "gif": "unobtainable/Leviamon.gif",
+    "dimensions": [
+      64,
+      32
+    ],
+    "frames": 2,
+    "species": "kyogre",
+    "digimon": "Leviamon",
+    "compiled_bytes": 1024,
+    "compiled_sha256": "dc7d519db7fbf436ef11d15a924e4816035035a22f1511eef791537c8b948a56"
+  },
+  {
+    "file": "graphics/object_events/pics/pokemon/latias_latios.png",
+    "gif": "mega/Magnadramon.gif",
+    "dimensions": [
+      96,
+      32
+    ],
+    "frames": 3,
+    "species": "latias",
+    "digimon": "Magnadramon",
+    "compiled_bytes": 1536,
+    "compiled_sha256": "5b8bae696a8bc4cd59af7856288e273f35054ceb22b5733f5e87e09b68700254"
+  },
+  {
+    "file": "graphics/object_events/pics/pokemon/machoke_carrying_box.png",
+    "gif": "champion/Grizzmon.gif",
+    "dimensions": [
+      96,
+      32
+    ],
+    "frames": 3,
+    "species": "machoke",
+    "digimon": "Grizzmon",
+    "compiled_bytes": 1536,
+    "compiled_sha256": "2a2796be4bb6018c921471b28c0900dcb21d9a0618fc72e2a603154326f5ea2e"
+  },
+  {
+    "file": "graphics/object_events/pics/pokemon/machoke_facing_away.png",
+    "gif": "champion/Grizzmon.gif",
+    "dimensions": [
+      64,
+      32
+    ],
+    "frames": 2,
+    "species": "machoke",
+    "digimon": "Grizzmon",
+    "compiled_bytes": 1024,
+    "compiled_sha256": "da5776c8a96eb8aad8970a2128c7b485d0fbe6bb1922a664e1c48b09de72011b"
+  },
+  {
+    "file": "graphics/object_events/pics/pokemon/pikachu.png",
+    "gif": "rookie/Terriermon.gif",
+    "dimensions": [
+      48,
+      16
+    ],
+    "frames": 3,
+    "species": "pikachu",
+    "digimon": "Terriermon",
+    "compiled_bytes": 384,
+    "compiled_sha256": "b6be707e54c4bb4c6dd364f1adf16ec7ffc133c906c846cb7070e2f637338948"
+  },
+  {
+    "file": "graphics/object_events/pics/pokemon/poochyena.png",
+    "gif": "rookie/Gaomon.gif",
+    "dimensions": [
+      288,
+      32
+    ],
+    "frames": 9,
+    "species": "poochyena",
+    "digimon": "Gaomon",
+    "compiled_bytes": 4608,
+    "compiled_sha256": "3849da8e5b104864b2d4bc9c724d86fc66742ce66afa9d6e66b459182e7c534a"
+  },
+  {
+    "file": "graphics/object_events/pics/pokemon/rayquaza.png",
+    "gif": "mega/Omegamon.gif",
+    "dimensions": [
+      64,
+      32
+    ],
+    "frames": 2,
+    "species": "rayquaza",
+    "digimon": "Omegamon",
+    "compiled_bytes": 1024,
+    "compiled_sha256": "37c849e4561f5e631bdecfe985e8b22889afb2ae6df1ff363178ee3546320cb0"
+  },
+  {
+    "file": "graphics/object_events/pics/pokemon/regi.png",
+    "gif": "mega/Puppetmon.gif",
+    "dimensions": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "species": "regirock",
+    "digimon": "Puppetmon",
+    "compiled_bytes": 512,
+    "compiled_sha256": "3fdb07d4f761ca15e3946ec68a5c69d11d07c7111af6ef9c92cfd508f44b85d8"
+  },
+  {
+    "file": "graphics/object_events/pics/pokemon/skitty.png",
+    "gif": "in-training/Wanyamon.gif",
+    "dimensions": [
+      48,
+      16
+    ],
+    "frames": 3,
+    "species": "skitty",
+    "digimon": "Wanyamon",
+    "compiled_bytes": 384,
+    "compiled_sha256": "a20cbb101302e24eb14dacc17b1b72fe49697d72133baf3dfdbcbda5bbca1161"
+  },
+  {
+    "file": "graphics/object_events/pics/pokemon/wingull.png",
+    "gif": "rookie/Penmon.gif",
+    "dimensions": [
+      96,
+      16
+    ],
+    "frames": 6,
+    "species": "wingull",
+    "digimon": "Penmon",
+    "compiled_bytes": 768,
+    "compiled_sha256": "e2f9bf026eea771d2cab1338d70e38a47526b24b37c690cb3b92b06ffbae8a98"
+  },
+  {
+    "file": "graphics/object_events/pics/pokemon/zigzagoon.png",
+    "gif": "rookie/Lopmon.gif",
+    "dimensions": [
+      48,
+      16
+    ],
+    "frames": 3,
+    "species": "zigzagoon",
+    "digimon": "Lopmon",
+    "compiled_bytes": 384,
+    "compiled_sha256": "9248bc7913f44072774028dfa1f9790712055010e2f67726673d3aa08325bd09"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/azurill_doll.png",
+    "gif": "in-training/Poyomon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "azurill",
+    "digimon": "Poyomon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "7219ffb19f9daabc40a3af73c485fae6e217b90775735eecc3a7a8fe30326324"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/baltoy_doll.png",
+    "gif": "champion/DarkTyrannomon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "baltoy",
+    "digimon": "DarkTyrannomon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "2943f2455989526861549846428ba134c4a616a58081b771ea794814ac2be0fb"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/big_blastoise_doll.png",
+    "gif": "mega/Vikemon.gif",
+    "dimensions": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "species": "blastoise",
+    "digimon": "Vikemon",
+    "compiled_bytes": 512,
+    "compiled_sha256": "e83babfd8384172707a7effb6c26364a33ef001db7c84eabda1c93042b86c4f2"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/big_charizard_doll.png",
+    "gif": "mega/Dukemon.gif",
+    "dimensions": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "species": "charizard",
+    "digimon": "Dukemon",
+    "compiled_bytes": 512,
+    "compiled_sha256": "33708abbde501226da06f16703ca6ea0fff9073da3e6114e5fef999e398fa955"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/big_lapras_doll.png",
+    "gif": "mega/MirageGaogamon.gif",
+    "dimensions": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "species": "lapras",
+    "digimon": "MirageGaogamon",
+    "compiled_bytes": 512,
+    "compiled_sha256": "83f79c89963b750a72d4071fc9d1a377d9b34087dd123e03b7906e68b33fb22d"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/big_regice_doll.png",
+    "gif": "mega/Plesiomon.gif",
+    "dimensions": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "species": "regice",
+    "digimon": "Plesiomon",
+    "compiled_bytes": 512,
+    "compiled_sha256": "95f6b25b451807fb3e087a08db677ce641067133e034cf30b6991e668926cd61"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/big_regirock_doll.png",
+    "gif": "mega/Puppetmon.gif",
+    "dimensions": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "species": "regirock",
+    "digimon": "Puppetmon",
+    "compiled_bytes": 512,
+    "compiled_sha256": "20b64d5c25cd691637cb8faf80133a06e4fd1843d31e463d8edbb214cd334b72"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/big_registeel_doll.png",
+    "gif": "mega/Machinedramon.gif",
+    "dimensions": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "species": "registeel",
+    "digimon": "Machinedramon",
+    "compiled_bytes": 512,
+    "compiled_sha256": "4f9510f7225a7c8b22d2f1ad60bb8f0d1128b874c3a09d2c209c20fa6ceefbef"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/big_rhydon_doll.png",
+    "gif": "ultimate/YatagaramonOriginal.gif",
+    "dimensions": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "species": "rhydon",
+    "digimon": "YatagaramonOriginal",
+    "compiled_bytes": 512,
+    "compiled_sha256": "26a51fcaed5f536ddd6d73d5bb284ced31177198682254351486b1bea07a7eff"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/big_snorlax_doll.png",
+    "gif": "ultimate/Monzaemon.gif",
+    "dimensions": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "species": "snorlax",
+    "digimon": "Monzaemon",
+    "compiled_bytes": 512,
+    "compiled_sha256": "1897f52607b5e9f20b5279e4f7223fab6d4dff61bdcfdf62ab8d4708d9e16be0"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/big_venusaur_doll.png",
+    "gif": "mega/Rosemon.gif",
+    "dimensions": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "species": "venusaur",
+    "digimon": "Rosemon",
+    "compiled_bytes": 512,
+    "compiled_sha256": "88e3be0fcb9ec0717e21c26a6f9ab6569e3522410c166cf605c22d1ae4d97b29"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/big_wailmer_doll.png",
+    "gif": "ultimate/Whamon.gif",
+    "dimensions": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "species": "wailmer",
+    "digimon": "Whamon",
+    "compiled_bytes": 512,
+    "compiled_sha256": "cd0b092fe188fc9ac4202c689e6a56ace6ec01ada3af0c1314ef64bf9777be8f"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/chikorita_doll.png",
+    "gif": "champion/Geremon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "chikorita",
+    "digimon": "Geremon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "6ae0d31bd0d21bf38084bbd24a032164d233b22e4367382c2d28a44b02a3e920"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/clefairy_doll.png",
+    "gif": "rookie/Plotmon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "clefairy",
+    "digimon": "Plotmon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "9ed99c2a55a60a2c636f08a2d8e5c78cd5692e869f2724292f479731733b94c1"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/cyndaquil_doll.png",
+    "gif": "champion/Evilmon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "cyndaquil",
+    "digimon": "Evilmon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "e9cd5ef45cf63313a6fc8e91c6db2533bfd7d0b1296bf26a79e3f05395580932"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/ditto_doll.png",
+    "gif": "rookie/Tsukaimon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "ditto",
+    "digimon": "Tsukaimon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "e31bb82f4e0acf1bc337c57ab013fa811317fdb391cb79a1b56ec5345e7381c5"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/duskull_doll.png",
+    "gif": "champion/Ankylomon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "duskull",
+    "digimon": "Ankylomon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "a9091edf0bdba2c133bd051cb3e1028514f52f99e1ba15ac8a3971e86eaa403b"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/gulpin_doll.png",
+    "gif": "champion/Devidramon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "gulpin",
+    "digimon": "Devidramon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "4b4eee13dec076d3614bbcec85bcd1ff7e0bc3ea7f84164bf883937e7f76c797"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/jigglypuff_doll.png",
+    "gif": "rookie/PawnChessmonBlack.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "jigglypuff",
+    "digimon": "PawnChessmonBlack",
+    "compiled_bytes": 128,
+    "compiled_sha256": "45c9ebd1a166c5eb4fb3bc4c5b0c63869454e719f5b34ead11ef5dcbce680065"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/kecleon_doll.png",
+    "gif": "ultimate/Magnamon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "kecleon",
+    "digimon": "Magnamon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "da7730514fa1326e7205b573c69b18b45a9fddf34f55ef211502ce00c22a60c9"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/lotad_doll.png",
+    "gif": "rookie/Kamemon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "lotad",
+    "digimon": "Kamemon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "ee0cbc4892c76ce13547a7894be35d21fef960f49bad42af9368510b836bf2d3"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/marill_doll.png",
+    "gif": "rookie/Otamamon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "marill",
+    "digimon": "Otamamon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "90ee0d8c77ba4fbf3e86c584c4696bc862acb5e8bc99345fe39dae21094ce194"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/meowth_doll.png",
+    "gif": "in-training/Kapurimon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "meowth",
+    "digimon": "Kapurimon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "6adee750b99eafa4f55bc712d48e5a06ffbfb85f0d295bed967d4427e3fb8f2f"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/mudkip_doll.png",
+    "gif": "rookie/Gabumon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "mudkip",
+    "digimon": "Gabumon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "cbb3490c667284284059e1aeda6013d282c0434b7423d66ee60811cdb17f82b6"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/pichu_doll.png",
+    "gif": "in-training/Gumymon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "pichu",
+    "digimon": "Gumymon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "ea8253193adbdef3b0c3a0ecb85b491226a021c561e65fc7faba256dad95eba7"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/pikachu_doll.png",
+    "gif": "rookie/Terriermon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "pikachu",
+    "digimon": "Terriermon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "2114e4c86d97f7c1720a237a9b447feab162939b17db8fc05897513cdad143ea"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/seedot_doll.png",
+    "gif": "rookie/Floramon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "seedot",
+    "digimon": "Floramon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "2ecb2647de84a6c2c57fee41e865d9c243a893b1f8cfc2919605aaaf490a4cba"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/skitty_doll.png",
+    "gif": "in-training/Wanyamon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "skitty",
+    "digimon": "Wanyamon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "da4641866c6a915f3dca1159139f6ee1c0a5f38bb9f285bcfacfa23647f2c2a7"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/smoochum_doll.png",
+    "gif": "champion/Drimogemon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "smoochum",
+    "digimon": "Drimogemon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "337e5502a895ee72549746bfae380312bb0cb32c1790a8e68e4ef223fcc760b5"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/swablu_doll.png",
+    "gif": "champion/Galgomon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "swablu",
+    "digimon": "Galgomon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "25ca7af6798a799be1e60d89a2e1a065c4ddfed6e2ac38fe91aab93dbe82181e"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/togepi_doll.png",
+    "gif": "rookie/BlackAgumon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "togepi",
+    "digimon": "BlackAgumon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "903c4388d1362a088743567fa167c49bc78adc8605bfd179743236f696804a1b"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/torchic_doll.png",
+    "gif": "rookie/Agumon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "torchic",
+    "digimon": "Agumon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "15c877fc650edca50703d501e6de5cc6fb267fea20fb0728fd706412f84b38f5"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/totodile_doll.png",
+    "gif": "champion/Gaogamon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "totodile",
+    "digimon": "Gaogamon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "316d61ac29b508e8cd3dd76a940b2ddb1567c297c87aded9029e59fc6e5b6846"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/treecko_doll.png",
+    "gif": "rookie/Patamon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "treecko",
+    "digimon": "Patamon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "082110d34ae7669c9a8fbb8c6155e391f207bae5113dc48fb62521d1f9bb2ea2"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/unused_magnemite_doll.png",
+    "gif": "champion/Icemon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "magnemite",
+    "digimon": "Icemon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "18510643d625ac7a4b777886a94695076fdc2ad56692f4c7457ff0725ef4249a"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/unused_natu_doll.png",
+    "gif": "champion/IceDevimon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "natu",
+    "digimon": "IceDevimon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "4b63df161b929c70f77688aa778dbe72ccfefb7878f767f12debe015e2b7233a"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/unused_pikachu_doll.png",
+    "gif": "rookie/Terriermon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "pikachu",
+    "digimon": "Terriermon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "2114e4c86d97f7c1720a237a9b447feab162939b17db8fc05897513cdad143ea"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/unused_porygon2_doll.png",
+    "gif": "mega/JumboGamemon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "porygon2",
+    "digimon": "JumboGamemon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "91a092b98b5325e439ff0995db91191fc535908211be5ffd7e905736ed57e828"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/unused_squirtle_doll.png",
+    "gif": "rookie/Gomamon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "squirtle",
+    "digimon": "Gomamon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "6a6f0364e48b4d35e704558a39e8f1901cacdf1b961797798fd33a47820a934d"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/unused_wooper_doll.png",
+    "gif": "in-training/Chibomon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "wooper",
+    "digimon": "Chibomon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "8a0a848ac647095ce04f24f11cc9a35a6ab2602163eeb66e979a52b444342324"
+  },
+  {
+    "file": "graphics/object_events/pics/dolls/wynaut_doll.png",
+    "gif": "rookie/Goblimon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "wynaut",
+    "digimon": "Goblimon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "cf3edf8886767791f5e5b3413e68cb3da06e8126ce8ec714de0fe9d94bbccac8"
+  },
+  {
+    "file": "graphics/object_events/pics/cushions/pika_cushion.png",
+    "gif": "rookie/Terriermon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "pikachu",
+    "digimon": "Terriermon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "2114e4c86d97f7c1720a237a9b447feab162939b17db8fc05897513cdad143ea"
+  },
+  {
+    "file": "graphics/object_events/pics/cushions/zigzag_cushion.png",
+    "gif": "rookie/Lopmon.gif",
+    "dimensions": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "species": "zigzagoon",
+    "digimon": "Lopmon",
+    "compiled_bytes": 128,
+    "compiled_sha256": "6410f2dd805068f255b8662441a6f305916e0bf41f044d1e078d6be9ed3dd43b"
+  },
+  {
+    "file": "graphics/object_events/pics/pokemon/digimon_latias.png",
+    "gif": "mega/Magnadramon.gif",
+    "dimensions": [
+      96,
+      32
+    ],
+    "frames": 3,
+    "species": "latias",
+    "digimon": "Magnadramon",
+    "compiled_bytes": 1536,
+    "compiled_sha256": "5b8bae696a8bc4cd59af7856288e273f35054ceb22b5733f5e87e09b68700254"
+  },
+  {
+    "file": "graphics/object_events/pics/pokemon/digimon_latios.png",
+    "gif": "mega/Goldramon.gif",
+    "dimensions": [
+      96,
+      32
+    ],
+    "frames": 3,
+    "species": "latios",
+    "digimon": "Goldramon",
+    "compiled_bytes": 1536,
+    "compiled_sha256": "8eb5f8aeb1b35708461f75faeb4545331e42ea680177485bf5384b28f8256931"
+  },
+  {
+    "file": "graphics/object_events/pics/pokemon/digimon_regirock.png",
+    "gif": "mega/Puppetmon.gif",
+    "dimensions": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "species": "regirock",
+    "digimon": "Puppetmon",
+    "compiled_bytes": 512,
+    "compiled_sha256": "3fdb07d4f761ca15e3946ec68a5c69d11d07c7111af6ef9c92cfd508f44b85d8"
+  },
+  {
+    "file": "graphics/object_events/pics/pokemon/digimon_regice.png",
+    "gif": "mega/Plesiomon.gif",
+    "dimensions": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "species": "regice",
+    "digimon": "Plesiomon",
+    "compiled_bytes": 512,
+    "compiled_sha256": "95f6b25b451807fb3e087a08db677ce641067133e034cf30b6991e668926cd61"
+  },
+  {
+    "file": "graphics/object_events/pics/pokemon/digimon_registeel.png",
+    "gif": "mega/Machinedramon.gif",
+    "dimensions": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "species": "registeel",
+    "digimon": "Machinedramon",
+    "compiled_bytes": 512,
+    "compiled_sha256": "4f9510f7225a7c8b22d2f1ad60bb8f0d1128b874c3a09d2c209c20fa6ceefbef"
+  }
+]

@@ -1,0 +1,33 @@
+✔ tai_home: dimensions, reachable events, warps and encounters (0.961709ms)
+✔ sun_route_1: dimensions, reachable events, warps and encounters (0.267208ms)
+✔ sun_route_2: dimensions, reachable events, warps and encounters (0.193875ms)
+✔ sun_trial_1: dimensions, reachable events, warps and encounters (0.219209ms)
+✔ matt_home: dimensions, reachable events, warps and encounters (0.222542ms)
+✔ tide_route_1: dimensions, reachable events, warps and encounters (0.24325ms)
+✔ tide_route_2: dimensions, reachable events, warps and encounters (0.314ms)
+✔ tide_trial_1: dimensions, reachable events, warps and encounters (0.199583ms)
+✔ 33 forms, eight families, valid paths and GBA mappings (0.472292ms)
+✔ HP formula and neutral nature have expected values (0.165834ms)
+✔ IV/EV boundaries reject impossible allocations (0.203417ms)
+✔ Tai badge changes never mutate Matt or the input save (0.521625ms)
+✔ Duplicate victory is idempotent; skipped badges are rejected (0.208458ms)
+✔ Stale revisions cannot overwrite newer progress (0.393375ms)
+✔ Both teams recruit all eight families; overflow goes to storage (0.95775ms)
+✔ Full storage queues a reward and later claims it exactly once (0.186792ms)
+✔ Reunion requires BOTH eight-badge journeys at the gate (0.604625ms)
+✔ Fusion consumes no source partners and cannot activate twice (1.139208ms)
+✔ Recruited copies cannot replace the protagonists' original partners (0.68ms)
+✔ Fainted, low-bond, and stale-snapshot fusion attempts fail (2.746458ms)
+✔ Victory, loss, and escape all remove the temporary fusion (0.989125ms)
+✔ Save round-trip preserves both journeys; bad versions and duplicate IDs fail (0.730208ms)
+✔ Digivolution gates level/bond/crest and retains fainted state (0.123916ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 65.176625
+PASS: 32768 native finale cases, 256 key masks, victory/defeat/flee, completion and resume guards.
+PASS: one-tile following, idle/turns, running/bikes, corners, long travel, elevation, warps, and safe reappearance

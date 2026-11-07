@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "roms": [
+    {
+      "edition": "sapphire",
+      "romBytes": 16777216,
+      "sha256": "76779a514f3638d47dcf18022c6a8f96f470b24767876555f72de62eee7915dc",
+      "headerChecksum": "pass",
+      "saveHardwareCode": "AXPE",
+      "speciesNamesVerified": 386,
+      "frontPointersVerified": 386,
+      "compiledGraphicsArraysVerified": 2403
+    },
+    {
+      "edition": "ruby",
+      "romBytes": 16777216,
+      "sha256": "919964ba8a174cb406f01d93697c32e75ea221a247df446bfe9f2e18afc910d5",
+      "headerChecksum": "pass",
+      "saveHardwareCode": "AXVE",
+      "speciesNamesVerified": 386,
+      "frontPointersVerified": 386,
+      "compiledGraphicsArraysVerified": 2403
+    }
+  ],
+  "scope": "Binary/header/asset/name/pointer checks; not a campaign playthrough"
+}

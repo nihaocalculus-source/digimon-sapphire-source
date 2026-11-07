@@ -1,0 +1,35 @@
+# Never commit ROMs, saves or archives
+*.gba
+*.gbc
+*.nds
+*.sav
+*.srm
+*.ss[0-9]
+*.zip
+*.7z
+# Build output (rebuilt by make)
+build/
+*.o
+*.elf
+*.map
+*.sym
+*.log
+# pret/pokeruby generated files (same rules as its own .gitignore)
+*.1bpp
+*.4bpp
+*.8bpp
+*.gbapal
+*.lz
+*.rl
+*.pcm
+*.latfont
+*.hwjpnfont
+*.fwjpnfont
+tools/agbcc
+tools/**/*.exe
+# GitHub won't accept pret's CI workflow from this login
+.github/
+# macOS
+.DS_Store
+# emulator saves / states
+saves/

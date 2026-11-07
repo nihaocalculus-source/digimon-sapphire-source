@@ -1,0 +1,33 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digimon Sapphire Player</title><link rel="stylesheet" href="saves/player-saves.css"></head><body><div id="game"></div><div id="error" hidden></div><script type="module">
+import {installPortableSaves} from './saves/player-saves.mjs';
+const game = new URLSearchParams(location.search).get('game') === 'ruby' ? 'ruby' : 'sihappiere';
+const names = {sihappiere:'Digimon Sapphire',ruby:'Digimon Ruby'};
+window.EJS_player = '#game';
+window.EJS_core = 'gba';
+window.EJS_gameUrl = '/roms/digimon-' + game + '.gba?build=8313e2e6a5b2';
+window.EJS_gameName = (game === 'ruby' ? 'Digimon Ruby' : 'Digimon Sih' + 'appiere') + ' - Local Conversion'; // unchanged so existing browser saves stay linked
+window.EJS_gameID = game === 'ruby' ? 2102 : 2101;
+window.EJS_pathtodata = '/emulator/data/';
+window.EJS_language = 'en-US';
+window.EJS_disableAutoLang = false;
+window.EJS_color = '#59d9ff';
+window.EJS_backgroundColor = '#070d1b';
+window.EJS_startButtonName = 'ENTER THE GAME';
+window.EJS_alignStartButton = 'center';
+window.EJS_volume = 0.35;
+window.EJS_noAutoFocus = false;
+window.EJS_startOnLoaded = false;
+window.EJS_Buttons = {netplay:false,cheat:false};
+window.EJS_defaultControls = {0:{
+  0:{value:'x',value2:'BUTTON_2'},2:{value:'shift',value2:'SELECT'},3:{value:'enter',value2:'START'},
+  4:{value:'up arrow',value2:'DPAD_UP'},5:{value:'down arrow',value2:'DPAD_DOWN'},
+  6:{value:'left arrow',value2:'DPAD_LEFT'},7:{value:'right arrow',value2:'DPAD_RIGHT'},
+  8:{value:'z',value2:'BUTTON_1'},10:{value:'a',value2:'LEFT_TOP_SHOULDER'},11:{value:'s',value2:'RIGHT_TOP_SHOULDER'},
+  24:{value:'1'},25:{value:'2'},26:{value:'3'},27:{value:'f'},28:{value:'r'}
+},1:{},2:{},3:{}};
+const portableSaves = installPortableSaves(game);
+window.EJS_onGameStart = () => { parent.postMessage({type:'game-started',game},location.origin); portableSaves.start(window.EJS_emulator); };
+function fail(){document.getElementById('game').hidden=true;const el=document.getElementById('error');el.hidden=false;el.textContent='The emulator could not load. Close this player and reopen it. If the problem continues, relaunch Digimon Sapphire using its .command file.';}
+window.addEventListener('error',event=>{if(event.message&&/EmulatorJS is not defined/.test(event.message))fail();});
+const loader=document.createElement('script');loader.src='/emulator/data/loader.js';loader.onerror=fail;document.body.append(loader);
+</script></body></html>

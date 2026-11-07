@@ -1,0 +1,62 @@
+{
+  "filesChanged": [
+    "data/maps/DewfordTown_Gym/text.inc",
+    "data/maps/FortreeCity_Gym/text.inc",
+    "data/maps/GraniteCave_1F/text.inc",
+    "data/maps/LavaridgeTown/text.inc",
+    "data/maps/LavaridgeTown_Gym_1F/text.inc",
+    "data/maps/LilycoveCity/text.inc",
+    "data/maps/LittlerootTown/text.inc",
+    "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
+    "data/maps/LittlerootTown_BrendansHouse_2F/text.inc",
+    "data/maps/LittlerootTown_MaysHouse_1F/text.inc",
+    "data/maps/LittlerootTown_MaysHouse_2F/text.inc",
+    "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+    "data/maps/MauvilleCity_Gym/text.inc",
+    "data/maps/MossdeepCity_Gym/text.inc",
+    "data/maps/OldaleTown/text.inc",
+    "data/maps/PetalburgCity_Gym/text.inc",
+    "data/maps/PetalburgWoods/text.inc",
+    "data/maps/Route101/text.inc",
+    "data/maps/Route103/text.inc",
+    "data/maps/Route110/text.inc",
+    "data/maps/Route119/text.inc",
+    "data/maps/RustboroCity/text.inc",
+    "data/maps/RustboroCity_CuttersHouse/text.inc",
+    "data/maps/RustboroCity_Gym/text.inc",
+    "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "data/maps/VictoryRoad_B2F/text.inc",
+    "data/text/birch_speech.inc",
+    "src/main_menu.c",
+    "src/starter_choose.c",
+    "src/strings.c"
+  ],
+  "nativeProtagonists": {
+    "ruby": "TAI",
+    "sapphire": "MATT"
+  },
+  "starterIndices": {
+    "ruby": 1,
+    "sapphire": 2
+  },
+  "narrative": "Digital-physical glitch; eight native badge flags presented as Digital Keys; Dark Masters gate home",
+  "coverage": [
+    "Birch introduction",
+    "Littleroot arrival and shelter",
+    "clock synchronization",
+    "Route101 partner reunion",
+    "BirchLab quest",
+    "Route103 signal test",
+    "eight guardian intro/victory/reward/explanation/postbattle dialogues",
+    "ambient badge terminology",
+    "rival identity as an ECHO",
+    "Route110 and Route119 milestones",
+    "Lilycove final-direction milestone",
+    "first villain-clan breach-research scene"
+  ],
+  "limitations": [
+    "Optional NPC side stories and most villain-clan scenes retain original plot beats.",
+    "Native maps and progression order are retained."
+  ],
+  "moduleCompilation": "main_menu.c, starter_choose.c and strings.c compiled successfully with native agbcc for Ruby and Sapphire."
+}

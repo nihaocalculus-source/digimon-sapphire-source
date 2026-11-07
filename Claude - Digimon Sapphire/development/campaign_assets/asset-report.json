@@ -1,0 +1,19 @@
+{
+  "avatars": [
+    "tai",
+    "matt"
+  ],
+  "sourceAtlasCells": 9,
+  "nativeOverworldFrames": 18,
+  "followers": {
+    "agumon": "development/sprite-originals/rookie/Agumon.gif",
+    "gabumon": "development/sprite-originals/rookie/Gabumon.gif"
+  },
+  "darkMasters": [
+    "MetalSeadramon",
+    "Puppetmon",
+    "Machinedramon",
+    "Piedmon"
+  ],
+  "notes": "Special movement states reuse directional actor poses; follower sprites adapt the catalog GIF animation."
+}

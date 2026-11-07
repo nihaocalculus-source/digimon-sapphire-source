@@ -1,0 +1,2 @@
+ca0e96e477924f3bd5d6994d31a1769e26df29867a6e0ffdfa6306101f02d5ce  roms/digimon-ruby.gba
+9387b9611d7283287acdba24e5d608fec5a9d68383b0f9899c1efc58db0bd77d  roms/digimon-sihappiere.gba

@@ -1,0 +1,15 @@
+{
+  "roster_count": 386,
+  "unique_digimon": 386,
+  "asset_counts": {
+    "front": 416,
+    "back": 416,
+    "icon": 413,
+    "palette": 778,
+    "footprint": 386
+  },
+  "dex_pages_replaced": 1186,
+  "name_lengths_max": 10,
+  "back_views": "Mirrored battle portraits, not bespoke rear-view drawings",
+  "balance": "Original slot types, moves, stats, encounters and evolution triggers retained"
+}

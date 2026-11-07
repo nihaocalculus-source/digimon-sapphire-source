@@ -1,0 +1,983 @@
+{
+  "schemaVersion": 1,
+  "legend": {
+    "#": "wall/trees",
+    ".": "path",
+    "g": "encounter grass",
+    "~": "water (blocked before traversal skill)"
+  },
+  "maps": {
+    "tai_home": {
+      "id": "tai_home",
+      "journey": "tai",
+      "status": "layout blueprint, not compiled into ROM maps",
+      "width": 24,
+      "height": 18,
+      "tiles": [
+        "########################",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "########################"
+      ],
+      "walkableTiles": [
+        ".",
+        "g"
+      ],
+      "events": [
+        {
+          "id": "tai_home_forward",
+          "kind": "warp",
+          "at": [
+            22,
+            9
+          ],
+          "toMap": "sun_route_1",
+          "to": [
+            2,
+            9
+          ],
+          "requiredFlag": "starter_received"
+        },
+        {
+          "id": "tai_home_starter",
+          "kind": "give_starter",
+          "at": [
+            12,
+            7
+          ],
+          "formId": "agumon",
+          "onceFlag": "starter_received"
+        },
+        {
+          "id": "tai_home_heal",
+          "kind": "heal",
+          "at": [
+            12,
+            11
+          ]
+        }
+      ],
+      "encounterRatePerStep": 0,
+      "encounters": []
+    },
+    "sun_route_1": {
+      "id": "sun_route_1",
+      "journey": "tai",
+      "status": "layout blueprint, not compiled into ROM maps",
+      "width": 24,
+      "height": 18,
+      "tiles": [
+        "########################",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#......................#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "########################"
+      ],
+      "walkableTiles": [
+        ".",
+        "g"
+      ],
+      "events": [
+        {
+          "id": "sun_route_1_back",
+          "kind": "warp",
+          "at": [
+            1,
+            9
+          ],
+          "toMap": "tai_home",
+          "to": [
+            21,
+            9
+          ]
+        },
+        {
+          "id": "sun_route_1_forward",
+          "kind": "warp",
+          "at": [
+            22,
+            9
+          ],
+          "toMap": "sun_route_2",
+          "to": [
+            2,
+            9
+          ],
+          "requiredFlag": null
+        },
+        {
+          "id": "sun_route_1_tutorial",
+          "kind": "trainer_battle",
+          "at": [
+            12,
+            9
+          ],
+          "trainerId": "tai_tutorial_tamer",
+          "onceFlag": "tutorial_won",
+          "team": [
+            {
+              "formId": "palmon",
+              "level": 5
+            }
+          ]
+        }
+      ],
+      "encounterRatePerStep": 10,
+      "encounters": [
+        {
+          "formId": "palmon",
+          "weight": 50,
+          "minLevel": 2,
+          "maxLevel": 5
+        },
+        {
+          "formId": "tentomon",
+          "weight": 30,
+          "minLevel": 2,
+          "maxLevel": 5
+        },
+        {
+          "formId": "biyomon",
+          "weight": 20,
+          "minLevel": 2,
+          "maxLevel": 5
+        }
+      ]
+    },
+    "sun_route_2": {
+      "id": "sun_route_2",
+      "journey": "tai",
+      "status": "layout blueprint, not compiled into ROM maps",
+      "width": 24,
+      "height": 18,
+      "tiles": [
+        "########################",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#......................#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "########################"
+      ],
+      "walkableTiles": [
+        ".",
+        "g"
+      ],
+      "events": [
+        {
+          "id": "sun_route_2_back",
+          "kind": "warp",
+          "at": [
+            1,
+            9
+          ],
+          "toMap": "sun_route_1",
+          "to": [
+            21,
+            9
+          ]
+        },
+        {
+          "id": "sun_route_2_forward",
+          "kind": "warp",
+          "at": [
+            22,
+            9
+          ],
+          "toMap": "sun_trial_1",
+          "to": [
+            2,
+            9
+          ],
+          "requiredFlag": "trial_gate_open"
+        },
+        {
+          "id": "sun_route_2_camp",
+          "kind": "heal",
+          "at": [
+            10,
+            9
+          ]
+        },
+        {
+          "id": "sun_route_2_gate_guard",
+          "kind": "trainer_battle",
+          "at": [
+            18,
+            9
+          ],
+          "trainerId": "tai_gate_guard",
+          "onceFlag": "trial_gate_open",
+          "team": [
+            {
+              "formId": "tentomon",
+              "level": 7
+            }
+          ]
+        }
+      ],
+      "encounterRatePerStep": 10,
+      "encounters": [
+        {
+          "formId": "palmon",
+          "weight": 50,
+          "minLevel": 4,
+          "maxLevel": 7
+        },
+        {
+          "formId": "tentomon",
+          "weight": 30,
+          "minLevel": 4,
+          "maxLevel": 7
+        },
+        {
+          "formId": "biyomon",
+          "weight": 20,
+          "minLevel": 4,
+          "maxLevel": 7
+        }
+      ]
+    },
+    "sun_trial_1": {
+      "id": "sun_trial_1",
+      "journey": "tai",
+      "status": "layout blueprint, not compiled into ROM maps",
+      "width": 24,
+      "height": 18,
+      "tiles": [
+        "########################",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "########################"
+      ],
+      "walkableTiles": [
+        ".",
+        "g"
+      ],
+      "events": [
+        {
+          "id": "sun_trial_1_back",
+          "kind": "warp",
+          "at": [
+            1,
+            9
+          ],
+          "toMap": "sun_route_2",
+          "to": [
+            21,
+            9
+          ]
+        },
+        {
+          "id": "sun_trial_1_boss",
+          "kind": "boss_battle",
+          "at": [
+            12,
+            7
+          ],
+          "bossId": "tai_digital_guardian",
+          "badge": 1,
+          "rewardHandler": "awardBadge",
+          "victoryFlags": [
+            "digital_key:1",
+            "crest:courage"
+          ],
+          "dialogue": {
+            "preBattle": [
+              "Tai: What is this place? It feels... glitchy.",
+              "Agumon: Tai-kun, look! The world is flickering like a corrupted file!",
+              "Digital Guardian: Intruders detected. You are not from this realm. Hand over the Digital Key or be deleted.",
+              "Tai: We don't have a choice. Let's do this, Agumon!"
+            ],
+            "postBattle": [
+              "Tai: We did it! But what is this 'Digital Key' for?",
+              "Agumon: It looks like a fragment of the gate home. We need all 8 to escape this glitched world!",
+              "Tai: Then we'd better keep moving. This place gives me the creeps."
+            ]
+          },
+          "team": [
+            {
+              "formId": "togemon",
+              "level": 12
+            }
+          ],
+          "rewardFamily": "biyomon"
+        }
+      ],
+      "encounterRatePerStep": 0,
+      "encounters": []
+    },
+    "matt_home": {
+      "id": "matt_home",
+      "journey": "matt",
+      "status": "layout blueprint, not compiled into ROM maps",
+      "width": 24,
+      "height": 18,
+      "tiles": [
+        "########################",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "########################"
+      ],
+      "walkableTiles": [
+        ".",
+        "g"
+      ],
+      "events": [
+        {
+          "id": "matt_home_forward",
+          "kind": "warp",
+          "at": [
+            22,
+            9
+          ],
+          "toMap": "tide_route_1",
+          "to": [
+            2,
+            9
+          ],
+          "requiredFlag": "starter_received"
+        },
+        {
+          "id": "matt_home_starter",
+          "kind": "give_starter",
+          "at": [
+            12,
+            7
+          ],
+          "formId": "gabumon",
+          "onceFlag": "starter_received"
+        },
+        {
+          "id": "matt_home_heal",
+          "kind": "heal",
+          "at": [
+            12,
+            11
+          ]
+        }
+      ],
+      "encounterRatePerStep": 0,
+      "encounters": []
+    },
+    "tide_route_1": {
+      "id": "tide_route_1",
+      "journey": "matt",
+      "status": "layout blueprint, not compiled into ROM maps",
+      "width": 24,
+      "height": 18,
+      "tiles": [
+        "########################",
+        "#ggggggggggg.gg~~~~~~~~#",
+        "#ggggggggggg.gg~~~~~~~~#",
+        "#ggggggggggg.gg~~~~~~~~#",
+        "#ggggggggggg.gg~~~~~~~~#",
+        "#ggggggggggg.gg~~~~~~~~#",
+        "#ggggggggggg.gg~~~~~~~~#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#......................#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "########################"
+      ],
+      "walkableTiles": [
+        ".",
+        "g"
+      ],
+      "events": [
+        {
+          "id": "tide_route_1_back",
+          "kind": "warp",
+          "at": [
+            1,
+            9
+          ],
+          "toMap": "matt_home",
+          "to": [
+            21,
+            9
+          ]
+        },
+        {
+          "id": "tide_route_1_forward",
+          "kind": "warp",
+          "at": [
+            22,
+            9
+          ],
+          "toMap": "tide_route_2",
+          "to": [
+            2,
+            9
+          ],
+          "requiredFlag": null
+        },
+        {
+          "id": "tide_route_1_tutorial",
+          "kind": "trainer_battle",
+          "at": [
+            12,
+            9
+          ],
+          "trainerId": "matt_tutorial_tamer",
+          "onceFlag": "tutorial_won",
+          "team": [
+            {
+              "formId": "gomamon",
+              "level": 5
+            }
+          ]
+        }
+      ],
+      "encounterRatePerStep": 10,
+      "encounters": [
+        {
+          "formId": "gomamon",
+          "weight": 50,
+          "minLevel": 2,
+          "maxLevel": 5
+        },
+        {
+          "formId": "patamon",
+          "weight": 30,
+          "minLevel": 2,
+          "maxLevel": 5
+        },
+        {
+          "formId": "gabumon",
+          "weight": 20,
+          "minLevel": 2,
+          "maxLevel": 5
+        }
+      ]
+    },
+    "tide_route_2": {
+      "id": "tide_route_2",
+      "journey": "matt",
+      "status": "layout blueprint, not compiled into ROM maps",
+      "width": 24,
+      "height": 18,
+      "tiles": [
+        "########################",
+        "#ggggggggggg.gg~~~~~~~~#",
+        "#ggggggggggg.gg~~~~~~~~#",
+        "#ggggggggggg.gg~~~~~~~~#",
+        "#ggggggggggg.gg~~~~~~~~#",
+        "#ggggggggggg.gg~~~~~~~~#",
+        "#ggggggggggg.gg~~~~~~~~#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#......................#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "#ggggggggggg.gggggggggg#",
+        "########################"
+      ],
+      "walkableTiles": [
+        ".",
+        "g"
+      ],
+      "events": [
+        {
+          "id": "tide_route_2_back",
+          "kind": "warp",
+          "at": [
+            1,
+            9
+          ],
+          "toMap": "tide_route_1",
+          "to": [
+            21,
+            9
+          ]
+        },
+        {
+          "id": "tide_route_2_forward",
+          "kind": "warp",
+          "at": [
+            22,
+            9
+          ],
+          "toMap": "tide_trial_1",
+          "to": [
+            2,
+            9
+          ],
+          "requiredFlag": "trial_gate_open"
+        },
+        {
+          "id": "tide_route_2_camp",
+          "kind": "heal",
+          "at": [
+            10,
+            9
+          ]
+        },
+        {
+          "id": "tide_route_2_gate_guard",
+          "kind": "trainer_battle",
+          "at": [
+            18,
+            9
+          ],
+          "trainerId": "matt_gate_guard",
+          "onceFlag": "trial_gate_open",
+          "team": [
+            {
+              "formId": "patamon",
+              "level": 7
+            }
+          ]
+        }
+      ],
+      "encounterRatePerStep": 10,
+      "encounters": [
+        {
+          "formId": "gomamon",
+          "weight": 50,
+          "minLevel": 4,
+          "maxLevel": 7
+        },
+        {
+          "formId": "patamon",
+          "weight": 30,
+          "minLevel": 4,
+          "maxLevel": 7
+        },
+        {
+          "formId": "gabumon",
+          "weight": 20,
+          "minLevel": 4,
+          "maxLevel": 7
+        }
+      ]
+    },
+    "tide_trial_1": {
+      "id": "tide_trial_1",
+      "journey": "matt",
+      "status": "layout blueprint, not compiled into ROM maps",
+      "width": 24,
+      "height": 18,
+      "tiles": [
+        "########################",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "########################"
+      ],
+      "walkableTiles": [
+        ".",
+        "g"
+      ],
+      "events": [
+        {
+          "id": "tide_trial_1_back",
+          "kind": "warp",
+          "at": [
+            1,
+            9
+          ],
+          "toMap": "tide_route_2",
+          "to": [
+            21,
+            9
+          ]
+        },
+        {
+          "id": "tide_trial_1_boss",
+          "kind": "boss_battle",
+          "at": [
+            12,
+            7
+          ],
+          "bossId": "matt_digital_guardian",
+          "badge": 1,
+          "rewardHandler": "awardBadge",
+          "victoryFlags": [
+            "digital_key:1",
+            "crest:friendship"
+          ],
+          "dialogue": {
+            "preBattle": [
+              "Matt: This place is messed up. It's like reality is breaking apart.",
+              "Gabumon: Matt, look at the sky! It's like a corrupted screen!",
+              "Digital Guardian: Unauthorized access detected. You are not part of this simulation. Surrender the Digital Key or be purged.",
+              "Matt: We're not giving up without a fight. Let's go, Gabumon!"
+            ],
+            "postBattle": [
+              "Matt: Another Digital Key... but what does it mean?",
+              "Gabumon: It's like a piece of the puzzle. We need all 8 to fix whatever's wrong with this world.",
+              "Matt: Then we'd better keep moving. This place isn't safe."
+            ]
+          },
+          "team": [
+            {
+              "formId": "ikkakumon",
+              "level": 12
+            }
+          ],
+          "rewardFamily": "gomamon"
+        }
+      ],
+      "encounterRatePerStep": 0,
+      "encounters": []
+    },
+    "dark_master_1": {
+      "id": "dark_master_1",
+      "journey": "shared",
+      "status": "endgame boss blueprint",
+      "width": 24,
+      "height": 18,
+      "tiles": [
+        "########################",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "########################"
+      ],
+      "walkableTiles": [
+        "."
+      ],
+      "events": [
+        {
+          "id": "dark_master_1_boss",
+          "kind": "boss_battle",
+          "at": [
+            12,
+            7
+          ],
+          "bossId": "metal_seadramon",
+          "dialogue": {
+            "preBattle": [
+              "MetalSeadramon: Fools! You dare challenge the Dark Masters?",
+              "Tai: We're not leaving until we fix this world!",
+              "Matt: And we're not letting you stop us!",
+              "MetalSeadramon: Then perish!"
+            ],
+            "postBattle": [
+              "MetalSeadramon: Impossible... my power..."]
+          },
+          "team": [
+            {
+              "formId": "metalseadramon",
+              "level": 50
+            }
+          ]
+        }
+      ],
+      "encounterRatePerStep": 0,
+      "encounters": []
+    },
+    "dark_master_2": {
+      "id": "dark_master_2",
+      "journey": "shared",
+      "status": "endgame boss blueprint",
+      "width": 24,
+      "height": 18,
+      "tiles": [
+        "########################",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "########################"
+      ],
+      "walkableTiles": [
+        "."
+      ],
+      "events": [
+        {
+          "id": "dark_master_2_boss",
+          "kind": "boss_battle",
+          "at": [
+            12,
+            7
+          ],
+          "bossId": "puppetmon",
+          "dialogue": {
+            "preBattle": [
+              "Puppetmon: You've come far, but this is where your journey ends.",
+              "Tai: We're not giving up now!",
+              "Matt: We've come too far to turn back.",
+              "Puppetmon: Then face my puppets!"
+            ],
+            "postBattle": [
+              "Puppetmon: My puppets... they were my strength..."
+            ]
+          },
+          "team": [
+            {
+              "formId": "puppetmon",
+              "level": 52
+            }
+          ]
+        }
+      ],
+      "encounterRatePerStep": 0,
+      "encounters": []
+    },
+    "dark_master_3": {
+      "id": "dark_master_3",
+      "journey": "shared",
+      "status": "endgame boss blueprint",
+      "width": 24,
+      "height": 18,
+      "tiles": [
+        "########################",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "########################"
+      ],
+      "walkableTiles": [
+        "."
+      ],
+      "events": [
+        {
+          "id": "dark_master_3_boss",
+          "kind": "boss_battle",
+          "at": [
+            12,
+            7
+          ],
+          "bossId": "machinedramon",
+          "dialogue": {
+            "preBattle": [
+              "Machinedramon: You are but ants before my mechanical might!",
+              "Tai: We've faced worse. Let's do this, Agumon!",
+              "Matt: Gabumon, let's show him what we're made of!",
+              "Machinedramon: Then die!"
+            ],
+            "postBattle": [
+              "Machinedramon: My machines... they were my power..."
+            ]
+          },
+          "team": [
+            {
+              "formId": "machinedramon",
+              "level": 54
+            }
+          ]
+        }
+      ],
+      "encounterRatePerStep": 0,
+      "encounters": []
+    },
+    "dark_master_4": {
+      "id": "dark_master_4",
+      "journey": "shared",
+      "status": "endgame boss blueprint",
+      "width": 24,
+      "height": 18,
+      "tiles": [
+        "########################",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "#......................#",
+        "########################"
+      ],
+      "walkableTiles": [
+        "."
+      ],
+      "events": [
+        {
+          "id": "dark_master_4_boss",
+          "kind": "boss_battle",
+          "at": [12, 7],
+          "bossId": "piedmon",
+          "dialogue": {
+            "preBattle": [
+              "Piedmon: You've defeated my brethren, but you will not defeat me!",
+              "Tai: We're not leaving until we fix this world!",
+              "Matt: And we're not letting you stop us!",
+              "Piedmon: Then face my magic!"
+            ],
+            "postBattle": [
+              "Piedmon: My magic... it was my strength..."
+            ]
+          },
+          "team": [
+            {
+              "formId": "piedmon",
+              "level": 56
+            }
+          ]
+        }
+      ],
+      "encounterRatePerStep": 0,
+      "encounters": []
+    },
+    "convergence_gate": {
+      "id": "convergence_gate",
+      "status": "shared endgame event blueprint",
+      "arrivals": [
+        "tai",
+        "matt"
+      ],
+      "condition": {
+        "bothDigitalKeys": 8,
+        "bothMap": "convergence_gate"
+      },
+      "eventHandler": "reunite",
+      "nextEvent": "startFinalBattle",
+      "fusionRecipe": "omegamon",
+      "dialogue": {
+        "preReunion": [
+          "Tai: Matt! Over here!",
+          "Matt: Tai! Thank goodness. This place is falling apart.",
+          "Agumon: The glitches are getting worse. We need to get out of here!",
+          "Gabumon: The gate is opening, but it's unstable. We need to combine our power to stabilize it!",
+          "Tai: Then let's do it. For our world, and for everyone we left behind."
+        ],
+        "postFusion": [
+          "Tai & Matt: DNA-DIGIVOLVE! OMEGAMON!",
+          "Omegamon: The gate is stabilizing. Hold on, we're going home!",
+          "The world around them shatters, and they find themselves back in their own universe.",
+          "Tai: We made it... but at what cost?",
+          "Matt: We'll figure it out. Together.",
+          "The screen fades to black as the end credits roll."
+        ]
+      }
+    }
+  }
+}
